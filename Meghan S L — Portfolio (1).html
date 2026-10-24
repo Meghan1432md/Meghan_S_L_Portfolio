@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Meghan S L — Portfolio</title>
+<style>
+:root{--bg:#f6f9fa;--card:#ffffff;--text:#1b2a31;--muted:#586973;--accent:#1f4e5f;--accent-soft:#e3edf0;--line:#d6e0e4;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e191e;--card:#15252c;--text:#e5eef1;--muted:#9bb0b9;--accent:#7cc0d6;--accent-soft:#1c3640;--line:#25414b;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e191e;--card:#15252c;--text:#e5eef1;--muted:#9bb0b9;--accent:#7cc0d6;--accent-soft:#1c3640;--line:#25414b;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:880px;margin:0 auto;padding:0 20px}
+nav{display:flex;gap:18px;flex-wrap:wrap;padding:18px 0;font-size:14px}
+nav a{color:var(--muted);text-decoration:none}nav a:hover{color:var(--accent)}
+header.hero{padding:36px 0 28px}
+.hero h1{font-size:clamp(2rem,6vw,3rem);line-height:1.15;margin:0 0 10px;color:var(--accent);letter-spacing:.01em}
+.hero p.lead{font-size:1.15rem;color:var(--text);max-width:640px;margin:0 0 18px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px;padding:0;list-style:none}
+.chips li{background:var(--accent-soft);color:var(--accent);padding:4px 12px;border-radius:999px;font-size:13px}
+.btn{display:inline-block;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600;font-size:15px;margin:0 8px 8px 0;border:1px solid var(--accent)}
+.btn.primary{background:var(--accent);color:var(--bg)}.btn.ghost{color:var(--accent)}
+section{padding:26px 0;border-top:1px solid var(--line)}
+h2{font-size:1.25rem;margin:0 0 14px;color:var(--accent);text-transform:uppercase;letter-spacing:.08em}
+h3{font-size:1.05rem;margin:0 0 4px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.card p{margin:6px 0 10px;color:var(--muted);font-size:15px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none}
+.tags li{font-size:12px;background:var(--accent-soft);color:var(--accent);padding:2px 9px;border-radius:6px}
+.skill b{display:block;font-size:13px;color:var(--accent);text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px}
+.skill span{font-size:15px}
+.job{margin-bottom:18px}.job .meta{color:var(--muted);font-size:14px;margin-bottom:6px}
+.job ul{margin:0;padding-left:20px}.job li{margin-bottom:4px}
+footer{padding:26px 0 40px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Sections"><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a></nav>
+
+<header class="hero">
+<h1>Meghan S L</h1>
+<p class="lead">Electronics &amp; Communication Engineering student who builds embedded, hardware and data-driven projects, backed by real industry experience.</p>
+<ul class="chips"><li>Bangalore, India</li><li>B.Tech ECE · expected 2027</li><li>2+ years of engineering experience</li></ul>
+<a class="btn primary" href="mailto:meghanm443@gmail.com">Email me</a>
+<a class="btn ghost" href="https://linkedin.com/in/meghan-s-l-1b8238218">LinkedIn</a>
+</header>
+
+<section id="about">
+<h2>About</h2>
+<p>I started with a diploma in electronics, worked as an Assistant Engineer on industrial chiller systems, and then returned to complete my B.Tech through lateral entry. That path gave me hands-on design experience as well as direct contact with customers. I enjoy turning a working circuit or a customer’s feedback into something concrete, and I learn new tools quickly. I was recognized as Best Employee of the Year in 2023.</p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="grid">
+<div class="card skill"><b>Programming</b><span>Embedded C, C, C++, Python, MATLAB, SQL</span></div>
+<div class="card skill"><b>Embedded &amp; protocols</b><span>Arduino, microcontrollers, CAN bus (MCP2515), SPI</span></div>
+<div class="card skill"><b>Hardware &amp; design</b><span>PCB design (KiCad), FPGA design (Xilinx Vivado), Cadence Virtuoso, Fusion 360, AutoCAD, COMSOL</span></div>
+<div class="card skill"><b>Data &amp; analysis</b><span>Excel, Power BI, SQL, data-driven design analysis</span></div>
+<div class="card skill"><b>Core strengths</b><span>Control systems, PID, transfer function modeling, system testing &amp; validation</span></div>
+<div class="card skill"><b>Working style</b><span>Customer engagement, requirements gathering, clear documentation</span></div>
+</div>
+</section>
+
+<section id="experience">
+<h2>Experience</h2>
+<div class="job"><h3>Intern · Nopo Nanotechnologies, Bangalore</h3><div class="meta">Jun 2026 – Jul 2026</div>
+<ul><li>Investigated a carbon nanotube (CNT) manufacturing process using microwave-radiation-based synthesis, documenting key process parameters for feasibility review.</li>
+<li>Built a process simulation for methane fuel generation from biomass, confirming technical feasibility for scaled production.</li></ul></div>
+<div class="job"><h3>Assistant Engineer · Werner Finley, Bangalore</h3><div class="meta">Nov 2022 – Jul 2024</div>
+<ul><li>Supported electrical and mechanical design and testing of industrial chiller systems using CAD software, contributing to a 10% improvement in design cycle efficiency through data-driven analysis in Excel.</li>
+<li>Drove product management and early-stage marketing and sales activities for new chiller products, engaging directly with initial customers to gather requirements and turn feedback into product decisions.</li>
+<li>Recognized as Best Employee of the Year (2023) for cross-functional contributions across design, product management and customer-facing work.</li></ul></div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="grid">
+<article class="card"><h3>CAN-Based Remote LED Control</h3><p>Two-node CAN bus communication between Arduino microcontrollers using MCP2515 transceivers. A button press on one node controls an LED on the other, with CAN framing configured at 500 kbps over CAN_H/CAN_L.</p><ul class="tags"><li>Embedded C</li><li>CAN</li><li>SPI</li><li>Arduino</li></ul></article>
+<article class="card"><h3>FPGA Digital Logic Gates</h3><p>Designed and implemented basic digital logic gates on FPGA hardware, validating functional correctness.</p><ul class="tags"><li>Xilinx Vivado</li><li>Digital design</li></ul></article>
+<article class="card"><h3>2D CNC Plotter</h3><p>Built a low-cost 2D plotter for precision drawing using Arduino Uno, a CNC shield and GRBL.</p><ul class="tags"><li>Arduino</li><li>GRBL</li><li>Inkscape</li></ul></article>
+<article class="card"><h3>3D PCB Engraving Machine</h3><p>Developed a cost-efficient, mobile PCB engraving machine that can be upgraded for metal engraving.</p><ul class="tags"><li>Arduino</li><li>Fusion 360</li><li>AutoCAD</li></ul></article>
+<article class="card"><h3>Active Vibration Damping (PID)</h3><p>Designed a PID-controlled vibration damping system for real-time suppression in an aerospace-type application, alongside MATLAB models of electrical and mechanical plants.</p><ul class="tags"><li>MATLAB</li><li>Control systems</li></ul></article>
+<article class="card"><h3>Skin Effect in Conductors</h3><p>Analyzed how AC current density varies with frequency in conductors, using Cadence Virtuoso.</p><ul class="tags"><li>Cadence Virtuoso</li><li>Circuit analysis</li></ul></article>
+<article class="card"><h3>Biomass-to-Methane Conversion</h3><p>Modeled and simulated the conversion process in COMSOL to evaluate energy yield and feasibility. Also simulated the electrostatic field in a parallel-plate capacitor.</p><ul class="tags"><li>COMSOL</li><li>Simulation</li></ul></article>
+</div>
+</section>
+
+<section id="education">
+<h2>Education &amp; training</h2>
+<div class="job"><h3>B.Tech, Electronics &amp; Communication Engineering (lateral entry)</h3><div class="meta">PES University, EC Campus, Bangalore · Aug 2024 – present · expected 2027</div></div>
+<div class="job"><h3>Diploma, Electronics &amp; Communication Engineering</h3><div class="meta">Shri Siddarameshwara Polytechnic, Tiptur, Karnataka</div></div>
+<div class="job"><h3>Training</h3><div class="meta">MATLAB NEXUS (MATLAB for engineering analysis and control systems) · EmbedX (embedded systems and microcontroller-based design)</div></div>
+<p>Languages: Kannada, Hindi, English</p>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Open to internships and entry-level roles in embedded systems, hardware and technical analysis.</p>
+<a class="btn primary" href="mailto:meghanm443@gmail.com">meghanm443@gmail.com</a>
+<a class="btn ghost" href="https://linkedin.com/in/meghan-s-l-1b8238218">linkedin.com/in/meghan-s-l-1b8238218</a>
+</section>
+
+<footer>© Meghan S L · Bangalore, India</footer>
+</div>
+</body>
+</html>
